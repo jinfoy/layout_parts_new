@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  }
+
+.top-wrapper {
+  margin-top: 20px;
+}
+.container {
+  padding: 20px;
+  background-color: #eff3f4;
+  width: 940px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.contents {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+.picture1 {
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+.picture2 {
+  float: right;
+  margin: 0 0 10px 20px;
+}
+
 
 /* 回答はここに書いてね */

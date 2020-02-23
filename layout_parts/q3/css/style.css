@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.box {
+  width:100%;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.title2,th:first-child{
+  background-color: #2244aa;
+  color: white;
+  font-size: 18px;
+  line-height: 26px; 
+  border: 1px solid white;
+}
+th,td {
+  width: 16.66%;
+  border: 1px solid #dedede;
+  padding: 10px 0;
+}
+.contents:last-child {
+  border-top: 2px dashed #000; 
+}
+.contents:nth-child(odd) {
+  background-color: #ecf1f2;
+}
 /* 回答はここに書いてね */
