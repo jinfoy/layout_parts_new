@@ -24,12 +24,12 @@
   word-break: break-all;
 }
 
-.picture1 {
+.picture_left {
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.picture2 {
+.picture_right {
   float: right;
   margin: 0 0 10px 20px;
 }

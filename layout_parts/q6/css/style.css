@@ -1,15 +1,25 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.text-align,.margin {
+.box_inner {
   text-align: center;
-  background-color: #e6f2ff;
-  width: 90px;
-  margin: 0 auto;
+}
+.text-align {
+  display: inline-block;
   padding: 10px 0;
+  width: 90px;
+  background-color: #E6F2FF;
 }
 
-.container1 {
+.margin {
+  width: 90px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #e6f2ff;
+}
+
+.container {
   display: table;
 }
 .outline {
@@ -23,7 +33,7 @@
   padding: 10px;
 }
 
-.container2 {
+.container_flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +44,7 @@
   padding: 10px;
 }
 
-.container3 {
+.container_position {
   position: relative;
 }
 
@@ -49,7 +59,7 @@
   margin: auto;
 }
 
-.container4 {
+.container_transform {
   position: relative;
 }
 .transform {
