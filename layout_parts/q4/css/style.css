@@ -9,34 +9,35 @@
 .contents {
   display: table;
   width: 100%;
+  margin-bottom: 20px;
 }
 .contents:last-child {
-  padding-top: 20px;
+  margin-bottom: 0;
 }
 .element {
   display: table-cell;
   padding : 20px;
   text-align: center;
 }
-.fixed_left {
+.orange {
   background-color: #fdc8b8;
   width: 100px;
 }
-.flex_center {
+.purple {
   background-color:#e0abd9;
  }
- .fixed_right {
+ .skyblue {
    background-color: #b6d8ed;
    width: 100px;
  }
 
- .flex_left {
+ .yellow {
    background-color: #e5d32e;
  }
- .flex_center_bottom {
+ .red {
    background-color: #ec869a;
  }
- .fixed_right_bottom {
+ .green {
    background-color: #8fdcad;
    width:500px;
  }

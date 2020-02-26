@@ -7,14 +7,16 @@
   height: 500px;
   margin: 0 auto;
   text-align: center;
-  line-height: 100px;
-  font-size:30px;
-  font-weight: bold;
   position: relative;
 }
 
 .contents {
   position:absolute;
+  line-height: 100px;
+  font-size:30px;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
 }
 
 .box1 {
@@ -68,10 +70,6 @@
   left: 10px;
   position: fixed;
   z-index: 10;
-}
-.contents {
-  width: 100px;
-  height: 100px;
 }
 .box1::after {
   content: "";
