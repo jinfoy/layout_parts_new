@@ -11,32 +11,39 @@
   font-size: 16px;
   width: 225px;
   box-sizing: border-box;
-}
-.margin {
   margin-right: 50px;
-}
-
-.float {
   float: left;
 }
-
+.contents:last-child {
+  margin-right: 0;
+}
 .table {
   display: table;
 }
 .table-cell {
   display: table-cell;
   vertical-align: middle;
+  padding-right: 50px;
+}
+.table-cell:last-child {
+  padding-right: 0;
 }
 
 .font {
   font-size: 0;
 }
 .inline {
+  float: none;
+  font-size: 16px;
   display: inline-block;
   vertical-align: middle;
 }
 
+.contents_flex {
+  margin: 0;
+}
 .flex {
+  margin-right: 0;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;

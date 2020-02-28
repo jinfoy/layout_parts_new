@@ -10,32 +10,34 @@
   overflow: hidden;
 }
 .contents {
-  font-size: 16px;
-  line-height: 16px;
-  color: white;
-  position: absolute;
   width: 100%;
+  height: 100%;
+  position: absolute;
   bottom: -100%;
   left: 0;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
-  box-sizing: border-box;
-  word-break: break-all;
-  padding: 20px;
+  transition: all 0.5s;
+}
+.car{
+  transition: all 0.5s;
 }
 .text {
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  word-break: break-all;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
 }
 .container:hover .car {
-  transition: all 0.5s;
   transform: scale(1.5);
 }
 .container:hover .contents {
   bottom: 0;
-  transition: all 0.5s;
 }
 
 .circle {
